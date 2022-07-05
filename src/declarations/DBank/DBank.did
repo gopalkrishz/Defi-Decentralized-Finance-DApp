@@ -1,0 +1,6 @@
+service : {
+  compound: () -> () oneway;
+  currentBalence: () -> (float64) query;
+  topUp: (float64) -> () oneway;
+  withdraw: (float64) -> () oneway;
+}
